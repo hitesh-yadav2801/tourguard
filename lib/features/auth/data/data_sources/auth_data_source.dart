@@ -216,14 +216,24 @@ class AuthDataSourceImpl implements AuthDataSource {
 
   @override
   Future<UserModel> signUpWithApple() async {
-    // TODO: implement signUpWithApple
-    throw UnimplementedError();
+    try {
+      throw UnimplementedError();
+    } on FirebaseAuthException catch (e) {
+      throw ServerException(e.message!);
+    } catch (e) {
+      throw ServerException(e.toString());
+    }
   }
 
   @override
   Future<UserModel> signInWithApple() async {
-    // TODO: implement signInWithApple
-    throw UnimplementedError();
+    try {
+      throw UnimplementedError();
+    } on FirebaseAuthException catch (e) {
+      throw ServerException(e.message!);
+    } catch (e) {
+      throw ServerException(e.toString());
+    }
   }
 
   @override
@@ -239,43 +249,78 @@ class AuthDataSourceImpl implements AuthDataSource {
 
   @override
   Future<UserModel?> getCurrentUser() async {
-    // TODO: implement getCurrentUser
-    throw UnimplementedError();
+    try {
+      throw UnimplementedError();
+    } on FirebaseAuthException catch (e) {
+      throw ServerException(e.message!);
+    } catch (e) {
+      throw ServerException(e.toString());
+    }
   }
 
   @override
   Future<void> deleteAccount() async {
-    // TODO: implement deleteAccount
-    throw UnimplementedError();
+    try {
+      throw UnimplementedError();
+    } on FirebaseAuthException catch (e) {
+      throw ServerException(e.message!);
+    } catch (e) {
+      throw ServerException(e.toString());
+    }
   }
 
   @override
   Future<void> sendEmailVerification() async {
-    // TODO: implement sendEmailVerification
-    throw UnimplementedError();
+    try {
+      throw UnimplementedError();
+    } on FirebaseAuthException catch (e) {
+      throw ServerException(e.message!);
+    } catch (e) {
+      throw ServerException(e.toString());
+    }
   }
 
   @override
   Future<void> sendPasswordResetEmail({required String email}) async {
-    // TODO: implement sendPasswordResetEmail
-    throw UnimplementedError();
+    try {
+      throw UnimplementedError();
+    } on FirebaseAuthException catch (e) {
+      throw ServerException(e.message!);
+    } catch (e) {
+      throw ServerException(e.toString());
+    }
   }
 
   @override
   Future<void> updateEmail({required String newEmail}) async {
-    // TODO: implement updateEmail
-    throw UnimplementedError();
+    try {
+      throw UnimplementedError();
+    } on FirebaseAuthException catch (e) {
+      throw ServerException(e.message!);
+    } catch (e) {
+      throw ServerException(e.toString());
+    }
   }
 
   @override
   Future<UserModel> updateName({required String newName}) async {
-    // TODO: implement updateName
-    throw UnimplementedError();
+    try {
+      throw UnimplementedError();
+    } on FirebaseAuthException catch (e) {
+      throw ServerException(e.message!);
+    } catch (e) {
+      throw ServerException(e.toString());
+    }
   }
 
   @override
   Future<void> updatePassword({required String newPassword}) async {
-    // TODO: implement updatePassword
-    throw UnimplementedError();
+    try {
+      throw UnimplementedError();
+    } on FirebaseAuthException catch (e) {
+      throw ServerException(e.message!);
+    } catch (e) {
+      throw ServerException(e.toString());
+    }
   }
 }

@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         locale: DevicePreview.locale(context),
         builder: DevicePreview.appBuilder,
-        title: 'Sim Fu',
+        title: 'TourGuard',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.lightTheme,
         home: const SignInPage(),
