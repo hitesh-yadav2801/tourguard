@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "902638078881",
+    "project_id": "tourguard-6259b",
+    "storage_bucket": "tourguard-6259b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902638078881:android:89f11b9d653ab2717a99e0",
+        "android_client_info": {
+          "package_name": "com.example.tourguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902638078881-s9ketlbb7mkve00pgjri9lffjl1sket0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tourguard",
+            "certificate_hash": "6da0b638df19095c59100fd5a55643013d5722de"
+          }
+        },
+        {
+          "client_id": "902638078881-hr5i1u0k0gio900eo3dthsglb5t0njnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCumCpD_dDdy_K0pdYOYwYZ_7UiEqGjmOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902638078881-hr5i1u0k0gio900eo3dthsglb5t0njnl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902638078881-0a499ueu0a788eqrlfdo10oievnvubjs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tourguard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
